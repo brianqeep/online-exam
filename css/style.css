@@ -114,11 +114,31 @@ body{
 }
 #button-1{
   position: relative;
-  bottom: 100px;
+  bottom: 40px;
 }
 #logo{
   position: relative;
   bottom: 370px;
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
+}
+#vision{
+  position: relative;
+  bottom: 300px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+#about{
+  position: relative;
+  bottom: 100px;
+  left: 80px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+#location{
+  position: relative;
+  bottom: 450px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  right: 200px;
 }
