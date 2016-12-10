@@ -108,13 +108,16 @@ body {font-family: Verdana,sans-serif;}
 	box-shadow: none;
 }
 
-
 body{
   overflow-x: hidden;
 }
 #button-1{
   position: relative;
+<<<<<<< HEAD
   bottom: 40px;
+=======
+  bottom: 100px;
+>>>>>>> c9a2ae1d0642797759760b1ed499bb4b04f0826b
 }
 #logo{
   position: relative;
@@ -122,6 +125,7 @@ body{
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
 }
+
 #vision{
   position: relative;
   bottom: 300px;
@@ -153,16 +157,4 @@ body{
 .container{
   text-align: center;
   font-family: 'Raleway', sans-serif;
-}
-.qu1{
-  border: 10px solid #fff;
-  box-shadow: -1px 1px 5px 4px #E3E3E3;
-  padding: 1px 1px 1px 1px;
-  width: 900px;
-  height: 220px;
-  position: relative;
-  background-color: white;
-  width: 400px;
-  text-align: center;
-  left: 400px;
 }
