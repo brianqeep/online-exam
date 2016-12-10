@@ -142,3 +142,27 @@ body{
   font-size: 20px;
   right: 200px;
 }
+#company{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+#sub-title{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.qu1{
+  border: 10px solid #fff;
+  box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 1px 1px 1px 1px;
+  width: 900px;
+  height: 220px;
+  position: relative;
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  left: 400px;
+}
