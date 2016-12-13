@@ -113,11 +113,9 @@ body{
 }
 #button-1{
   position: relative;
-<<<<<<< HEAD
+
   bottom: 40px;
-=======
-  bottom: 100px;
->>>>>>> c9a2ae1d0642797759760b1ed499bb4b04f0826b
+
 }
 #logo{
   position: relative;
