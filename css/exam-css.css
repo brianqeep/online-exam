@@ -1,4 +1,4 @@
-.question2, .question3, .question4, .question5{
+.question1, .question2, .question3, .question4, .question5{
   display: none;
 }
 .btn.outline {
@@ -36,10 +36,15 @@ h1, h2{
   font-family: 'Raleway', sans-serif;
 }
 .result{
-  background-color: black;
-  height: 200px;
-  width: 150px;
+  border: 10px solid #fff;
+  box-shadow: -1px 1px 5px 4px #e3e3e3;
+  padding: 1px 1px 1px 1px;
+  width: 40%;
+  background-color: #fff;
   position: relative;
-  left: 83%;
-  bottom: 50%;
+  left: 350px;
+
+}
+.result{
+  display: none;
 }

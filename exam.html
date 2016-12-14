@@ -2,32 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Online Exam</title>
     <link rel="stylesheet" href="css/exam-css.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <title>Royal Academy</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   <body>
      <h1>ROYAL ACADEMY<h1>
        <h2>SAT Exam</h2><br><br>
        <div class="container">
          <form class="exam">
-
+           <div class="form-group particulars">
+             <label for="name">Name</label>
+             <input type="text" id="name" class="name form-control" placeholder="Name">
+             <label for="nationality">Nationality</label>
+             <input type="text" id="nationality" class="name form-control" placeholder="Nationality">
+             <label for="date">Date of Birth</label>
+             <input type="date" id="date" class="date form-control">
+             <label for="university"></label>
+             <select class="form-control" id="university">
+               <option>Havard University</option>
+               <option>stanford University</option>
+               <option>Massachusetts Institute of Technology</option>
+               <option>London School of Economics</option>
+               <option>University of British Columbia</option>
+               <option>University of Nairobi</option>
+               <option>Makerere University</option>
+               <option>Yale University</option>
+               <option>University of Manitoba</option>
+               <option>University of Melbourne</option>
+             </select><br><br>
+             <button type="button" id="start" class="btn outline">START EXAM</button>
+            </div>
            <div class="form-group question1">
              <p>Q1. In what year did India gain its independence from Britain?</p>
              <input type="radio" value="1" name="q1" id="q11"> 1977 <br>
-             <input type="radio" value="2" name="q1" id="q11"> 1980 <br>
-             <input type="radio" value="3" name="q1" id="q11"> 1947 <br>
-             <input type="radio" value="4" name="q1" id="q11"> 1958 <br><br>
+             <input type="radio" value="2" name="q1" id="q12"> 1980 <br>
+             <input type="radio" value="3" name="q1" id="q13"> 1947 <br>
+             <input type="radio" value="4" name="q1" id="q14"> 1958 <br><br>
              <button type="button" id="qbtn1next" class="btn outline">Next Question</button><br><br>
              <img src="img/q1.jpg" class="image" alt="india"/>
            </div>
 
            <div class="form-group question2">
              <p>Q2. What colour jersey is worn by the winners of each stage of the Tour De France?</p>
-             <input type="radio" value="5" name="q2"> Yellow <br>
-             <input type="radio" value="6" name="q2"> Blue <br>
-             <input type="radio" value="7" name="q2"> Red <br>
-             <input type="radio" value="8" name="q2"> White <br><br>
+             <input type="radio" value="5" name="q2" id="q21"> Yellow <br>
+             <input type="radio" value="6" name="q2" id="q22"> Blue <br>
+             <input type="radio" value="7" name="q2" id="q23"> Red <br>
+             <input type="radio" value="8" name="q2" id="q24"> White <br><br>
              <button type="button" id="qbtn2previous" class="btn outline">Previous Question</button>
              <button type="button" id="qbtn2next"class="btn outline">Next Question</button><br><br>
              <img src="img/q2.jpg" class="image" alt="india"/>
@@ -35,10 +57,10 @@
 
            <div class="form-group question3">
              <p>Q3. In 2011, which country hosted a Formula 1 race for the first time? </p>
-             <input type="radio" value="9" name="q3"> Spain <br>
-             <input type="radio" value="10" name="q3"> Dubai <br>
-             <input type="radio" value="11" name="q3"> Brazil <br>
-             <input type="radio" value="12" name="q3"> India <br><br>
+             <input type="radio" value="9" name="q3" id="q31"> Spain <br>
+             <input type="radio" value="10" name="q3" id="q32"> Dubai <br>
+             <input type="radio" value="11" name="q3" id="q33"> Brazil <br>
+             <input type="radio" value="12" name="q3" id="q34"> India <br><br>
              <button type="button" id="qbtn3previous" class="btn outline">Previous Question</button>
              <button type="button" id="qbtn3next" class="btn outline">Next Question</button><br><br>
              <img src="img/q3.jpg" class="image" alt="india"/>
@@ -46,10 +68,10 @@
 
            <div class="form-group question4">
              <p>Q4. If you were painting with tempera, what would you be using to bind together colour pigments?</p>
-             <input type="radio" value="13" name="q4"> White <br>
-             <input type="radio" value="14" name="q4"> Paint Thinner <br>
-             <input type="radio" value="15" name="q4"> Egg yolk <br>
-             <input type="radio" value="16" name="q4"> Water <br><br>
+             <input type="radio" value="13" name="q4" id="q41"> White <br>
+             <input type="radio" value="14" name="q4" id="q42"> Paint Thinner <br>
+             <input type="radio" value="15" name="q4" id="q43"> Egg yolk <br>
+             <input type="radio" value="16" name="q4" id="q44"> Water <br><br>
              <button type="button" id="qbtn4previous" class="btn outline">Previous Question</button>
              <button type="button" id="qbtn4next" class="btn outline">Next Question</button><br><br>
              <img src="img/q4.jpg" class="image" alt="india"/>
@@ -57,10 +79,10 @@
 
            <div class="form-group question5">
              <p>Q5. Who was Henry VIll's first wife?</p>
-             <input type="radio" value="20" name="q5"> Anne Boleyn <br>
-             <input type="radio" value="21" name="q5"> Catherine of Aragon<br>
-             <input type="radio" value="22" name="q5"> Catherine Parr <br>
-             <input type="radio" value="24" name="q5"> Catherine Howard <br><br>
+             <input type="radio" value="20" name="q5" id="q51"> Anne Boleyn <br>
+             <input type="radio" value="21" name="q5" id="q52"> Catherine of Aragon<br>
+             <input type="radio" value="22" name="q5" id="q53"> Catherine Parr <br>
+             <input type="radio" value="24" name="q5" id="q54"> Catherine Howard <br><br>
              <button type="button" id="qbtn5previous" class="btn outline">Previous Question</button>
              <button type="submit" id="submit" class="btn outline">Finish Exam and Show Result</button><br><br>
              <img src="img/q5.jpg" class="image" alt="india"/>
@@ -69,11 +91,16 @@
        </div>
 
           <div class="result">
-            <h2>Your Answer</h2>
-            <ul id="list1">
+            <h2>YOUR RESULTS</h2>
+            <p> Name:<span id="name1"></span></p><br>
+            <p> Nationality:<span id="nationality1"></span></p><br>
+            <p> Date:<span id="date1"></span></p><br>
+            <p> University:<span id="university1"></span></p><br>
+            <p> Marks:<span id="marks"></span></p><br>
 
-            </ul>
+
           </div>
+
 
 
 
