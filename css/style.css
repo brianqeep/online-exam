@@ -61,9 +61,9 @@ body {font-family: Verdana,sans-serif;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 7s;
+  -webkit-animation-duration: 10s;
   animation-name: fade;
-  animation-duration: 7s;
+  animation-duration: 10s;
 }
 
 @-webkit-keyframes fade {
