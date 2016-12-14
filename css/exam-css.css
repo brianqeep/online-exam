@@ -1,4 +1,4 @@
-.question1, .question2, .question3, .question4, .question5{
+.question2, .question3, .question4, .question5{
   display: none;
 }
 .btn.outline {
@@ -47,4 +47,28 @@ h1, h2{
 }
 .result{
   display: none;
+}
+.time{
+  height: 30px;
+  text-align: right;
+  font-size: 20px;
+}
+body{
+  background: url(../img/bg2.jpg) no-repeat center center;
+  background-size:
+}
+.head{
+  font-family: 'Raleway', sans-serif;
+
+}
+p, ol{
+font-family: 'Raleway', sans-serif;
+}
+.terms{
+  height: 200px;
+  margin-left: 10%;
+}
+.luck{
+  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
 }

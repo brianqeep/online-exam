@@ -8,32 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   <body>
-     <h1>ROYAL ACADEMY<h1>
-       <h2>SAT Exam</h2><br><br>
+     <h1 class="head">ROYAL ACADEMY<h1>
+       <h2 class="head">SAT Exam</h2><br><br>
+       <div class="container time">
+         <p>Time Remaining: <span id="time"> </span> </p>
+      </div>
        <div class="container">
          <form class="exam">
-           <div class="form-group particulars">
-             <label for="name">Name</label>
-             <input type="text" id="name" class="name form-control" placeholder="Name">
-             <label for="nationality">Nationality</label>
-             <input type="text" id="nationality" class="name form-control" placeholder="Nationality">
-             <label for="date">Date of Birth</label>
-             <input type="date" id="date" class="date form-control">
-             <label for="university"></label>
-             <select class="form-control" id="university">
-               <option>Havard University</option>
-               <option>stanford University</option>
-               <option>Massachusetts Institute of Technology</option>
-               <option>London School of Economics</option>
-               <option>University of British Columbia</option>
-               <option>University of Nairobi</option>
-               <option>Makerere University</option>
-               <option>Yale University</option>
-               <option>University of Manitoba</option>
-               <option>University of Melbourne</option>
-             </select><br><br>
-             <button type="button" id="start" class="btn outline">START EXAM</button>
-            </div>
+
            <div class="form-group question1">
              <p>Q1. In what year did India gain its independence from Britain?</p>
              <input type="radio" value="1" name="q1" id="q11"> 1977 <br>
@@ -92,15 +74,19 @@
 
           <div class="result">
             <h2>YOUR RESULTS</h2>
-            <p> Name:<span id="name1"></span></p><br>
-            <p> Nationality:<span id="nationality1"></span></p><br>
-            <p> Date:<span id="date1"></span></p><br>
-            <p> University:<span id="university1"></span></p><br>
-            <p> Marks:<span id="marks"></span></p><br>
-
-
+            <p> Marks:<span id="marks"></span>%</p><br>
           </div>
-
+          <div class="terms">
+            <h3>Terms and Conditions</h3>
+            <ol>
+              <li>Do not google to find the answers</li>
+              <li>Do not do the exam in pairs</li>
+              <li>The duration of the exam is five minutes</li>
+              <li>Each question carries 20 points</li>
+              <li>Answer all Questions provided</li>
+            </ol>
+            <p class="luck">Good Luck!</p>
+          </div>
 
 
 

@@ -24,15 +24,10 @@ function showq5(){
 function endExam(){
   $(".container").hide();
   $(".result").fadeIn();
+  $(".terms").hide();
 }
-function start(){
-  $(".particulars").hide();
-  $(".question1").fadeIn();
-}
+
 $(document).ready(function(){
-  $("#start").click(function(event){
-    start();
-  });
   $("#qbtn1next").click(function(event){
     showq2();
   });
@@ -88,18 +83,29 @@ $(document).ready(function(){
    else {
      result == 0
    }
+   $("#marks").append(result);
 
-  var name2 = $("#name").val("");
-  var nationality2 = $("#nationality").val("");
-  var date2 = $("#date").val();
-  var university2 = $("#university").val("");
-
-  $("name1").text(name2);
-  $("nationality1").text(nationality2);
-  $("date1").text(date2);
-  $("university1").text(university2);
-  $("marks").append(result);
-
-  alert(name2, nationality2, result);
   });
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.text(minutes + ":" + seconds);
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+jQuery(function ($) {
+    var fiveMinutes = 60 * 5,
+        display = $('#time');
+    startTimer(fiveMinutes, display);
 });
+  });
