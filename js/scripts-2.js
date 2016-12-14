@@ -108,4 +108,4 @@ jQuery(function ($) {
         display = $('#time');
     startTimer(fiveMinutes, display);
 });
-  });
+});
